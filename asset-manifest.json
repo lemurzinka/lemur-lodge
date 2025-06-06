@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/lemur-lodge/static/css/main.27c8f9a4.css",
+    "main.css": "/lemur-lodge/static/css/main.070d1add.css",
     "main.js": "/lemur-lodge/static/js/main.bbfb7a2f.js",
     "static/js/453.ef67fa76.chunk.js": "/lemur-lodge/static/js/453.ef67fa76.chunk.js",
     "static/media/banket-hall.png": "/lemur-lodge/static/media/banket-hall.2526ab8f234545f85dc3.png",
     "static/media/about-banner.jpg": "/lemur-lodge/static/media/about-banner.addd6013d348b0ab0838.jpg",
     "static/media/home-banner.jpg": "/lemur-lodge/static/media/home-banner.7eceef900a1906b15c6a.jpg",
     "index.html": "/lemur-lodge/index.html",
-    "main.27c8f9a4.css.map": "/lemur-lodge/static/css/main.27c8f9a4.css.map",
+    "main.070d1add.css.map": "/lemur-lodge/static/css/main.070d1add.css.map",
     "main.bbfb7a2f.js.map": "/lemur-lodge/static/js/main.bbfb7a2f.js.map",
     "453.ef67fa76.chunk.js.map": "/lemur-lodge/static/js/453.ef67fa76.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.27c8f9a4.css",
+    "static/css/main.070d1add.css",
     "static/js/main.bbfb7a2f.js"
   ]
 }

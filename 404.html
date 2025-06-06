@@ -7,7 +7,13 @@
 </head>
 <body>
   <script>
-    window.location.replace("/lemur-lodge" + window.location.pathname);
+    var pathname = window.location.pathname;
+    // Перевіряємо, чи вже є "/lemur-lodge" в URL
+    if (!pathname.startsWith("/lemur-lodge")) {
+      window.location.replace("/lemur-lodge" + pathname);
+    } else {
+      window.location.replace("/lemur-lodge/");
+    }
   </script>
 </body>
 </html>

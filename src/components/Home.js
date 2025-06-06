@@ -95,7 +95,7 @@ useEffect(() => {
   <div className="home-container">
     <div className="home-section">
       <div className="image-wrapper">
-        <img src="/images/home-reception.jpg" alt="reception-image" className="home-image"/>
+        <img src="/lemur-lodge/images/home-reception.jpg" alt="reception-image" className="home-image"/>
         <div className="overlay-box">
           <h2>+24 Rooms</h2>
         </div>

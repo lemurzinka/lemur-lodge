@@ -22,7 +22,7 @@ const About = () => {
       <div className="about-container">
       
         <div className="about-section left-image">
-          <img src="/images/about-history.jpg" alt="History of Lemur Lodge" className="about-image"/>
+          <img src="/lemur-lodge/images/about-history.jpg" alt="History of Lemur Lodge" className="about-image"/>
           <div className="about-text">
             <h2>Our Story</h2>
             <p>
@@ -41,7 +41,7 @@ const About = () => {
               Experience the charm of historic architecture fused with modern amenities.
             </p>
           </div>
-          <img src="/images/about-offer.jpg" alt="Services at Lemur Lodge" className="about-image"/>
+          <img src="/lemur-lodge/images/about-offer.jpg" alt="Services at Lemur Lodge" className="about-image"/>
         </div>
       </div>
 

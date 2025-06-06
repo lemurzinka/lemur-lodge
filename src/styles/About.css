@@ -1,0 +1,52 @@
+.about-banner { 
+    position: relative;
+     width: 100%;
+      height: 400px;
+       background: url("/public/images/about-banner.jpg") center/cover no-repeat;
+        display: flex;
+         align-items: center;
+          justify-content: center; } 
+
+
+
+
+.about-text-overlay {
+     position: absolute;
+      text-align: center; color: white;
+       background: rgba(0, 0, 0, 0.5);
+        /* Напівпрозорий фон */ padding: 20px;
+         border-radius: 10px; } 
+
+
+
+.about-container {
+  max-width: 1400px;
+  margin: 40px auto;
+}
+
+/* Стилі для секцій */
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  background: rgb(226, 236, 238);
+  border-radius: 10px;
+}
+
+
+/* Зображення */
+.about-image {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+.about-text h2 {
+  color: rgb(32, 171, 196);
+  font-size: 24px;
+}
+

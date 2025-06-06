@@ -41,9 +41,7 @@ npm start
 ```
 
 
-```sh
 After running these commands, the project will be accessible at http://localhost:3000.
-```
 
 
 ## 📝 **Authors**  

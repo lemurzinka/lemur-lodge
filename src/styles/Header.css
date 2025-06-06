@@ -84,10 +84,23 @@
   }
 
   .dropdown-menu {
-    position: static; 
-    width: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    min-width: 200px;
     text-align: center;
+    z-index: 99999;
   }
+
+
+.dropdown-wrapper {
+  position: static;
+}
 }
 
 @media (max-width: 480px) {

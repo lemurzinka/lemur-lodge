@@ -122,3 +122,80 @@
   flex-direction: column;
   gap: 10px;
 }
+
+@media (max-width: 1024px) {
+  .home-banner {
+    height: 400px;
+  }
+
+  .home-container {
+    max-width: 90%;
+  }
+
+  .home-section {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .home-image {
+    width: 80%;
+  }
+
+  .overlay-box {
+    font-size: 16px;
+    bottom: 10px;
+    left: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-banner {
+    height: 300px;
+  }
+
+  .parallax-section {
+    height: 400px;
+    background-attachment: scroll; /* Виправлення для мобільних */
+  }
+
+  .home-text h2 {
+    font-size: 22px;
+  }
+
+  .home-text p {
+    font-size: 14px;
+  }
+
+  .counter-box {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-banner {
+    height: 250px;
+  }
+
+  .home-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-image {
+    width: 100%;
+  }
+
+  .overlay-box {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .parallax-section {
+    height: 300px;
+  }
+
+  .counter-box {
+    font-size: 16px;
+    padding: 15px;
+  }
+}

@@ -40,10 +40,12 @@
   min-width: 160px;
   display: flex;
   flex-direction: column;
-  align-items: start;
+  display: block !important;
 }
 
+
 .dropdown-menu p {
+  text-align: center;
   margin: 5px 0;
   cursor: pointer;
   font-size: 14px;
@@ -51,4 +53,55 @@
 
 .dropdown-menu p:hover {
   color: #007bff;
+}
+
+@media (max-width: 1024px) {
+  .navbar-brand-custom {
+    font-size: 20px;
+  }
+
+  .nav-link {
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .dropdown-menu {
+    min-width: 140px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-link {
+    font-size: 14px;
+    padding: 6px;
+  }
+
+  .dropdown-menu {
+    position: static; 
+    width: auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-brand-custom {
+    font-size: 18px;
+  }
+
+  .nav-link {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .dropdown-menu p {
+    font-size: 12px;
+    padding: 5px;
+  }
 }

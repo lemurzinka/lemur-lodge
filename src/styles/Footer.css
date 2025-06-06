@@ -18,3 +18,33 @@
   color: rgb(255, 255, 255);
 }
 
+/* Адаптація для менших екранів */
+@media (max-width: 1024px) {
+  .app-footer {
+    font-size: 13px;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .app-footer {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .app-footer a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-footer {
+    font-size: 11px;
+    padding: 8px;
+  }
+
+  .app-footer a {
+    font-size: 11px;
+    padding: 5px;
+  }
+}
